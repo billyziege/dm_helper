@@ -105,14 +105,6 @@ Any code that will be within this repository, though, is going to be under the C
 make sure you are okay with that.  I personally think that providing a tool to make
 some people be the best DM they can be is a goal unto itself.
 
-
-This strategy is fine, but there is a more modern solution using computers.
-Relational databases are ways to store information, and web frameworks often have
-such databases on the "back-end".  There is quite a bit of 
-Using databases to store the information and accessing the information as needed.
-
-The design of this application is to provide this functionality.  The database 
-
 # Running the App
 
 The app isn't finished yet.  There is no running it.  When there is, I will update this section.  I also
