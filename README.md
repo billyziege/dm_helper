@@ -1,9 +1,9 @@
 # Table of Contents
-1. [What is this?](dm-helper)
-1. [Why is this here?](purposes-of-repo)
-1. [How does it work?](what-dm-helper-is-designed-to-do)
-1. [Can I use this?](notes-about-copyright)
-1. [How can I set it up?](running-the-app)
+1. [What is this?](#dm-helper)
+1. [Why is this here?](#purposes-of-repo)
+1. [How does it work?](#what-dm-helper-is-designed-to-do)
+1. [Can I use this?](#notes-about-copyright)
+1. [How can I set it up?](#running-the-app)
 
 # DM Helper
 DM stands for Dungeon Master, a role played by someone playing Dungeons and Dragons (D\&D).
