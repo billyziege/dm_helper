@@ -1,0 +1,36 @@
+<!doctype html>
+<!-- This file contains the layout that almost all other pages inherit from.  Namely the nav bar,
+     drop-down menu, profile, and logout. --!>
+<html>
+   <link rel="stylesheet" href="/static/navbar.css">
+  <head>
+    {% if sub_title %}
+    <title>DM Helper -- {{sub_title}}</title>
+    {% else %}
+    <title>DM Helper</title>
+    {% endif %}
+  </head>
+  <body>
+    <div class="nav-bar">
+      <div class="dropdown" name="menu">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <ul>
+            {% for link in {{ links }} %}
+              <a href={{ link.endpoint }}>{{ link.name }}</a>
+            {% endfor %}
+          </ul>
+        </div>
+      </div> 
+      <div class="dropdown" name="profile">
+        <button class="dropbtn">{{username}} profile</button>
+        <div class="dropdown-content">
+          {% include {{role}} + '-menu.html' %}
+        </div>
+      </div> 
+    </div>
+    
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
